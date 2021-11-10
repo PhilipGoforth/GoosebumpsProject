@@ -67,13 +67,23 @@ namespace GoosebumpsReader
         {
             ReadKey();
             Clear();
-            WriteLine("Late one night you and your friends visit the old fairgrounds. They're putting up rides and booths for the annual carnival. \nBut this year things look really different. \nReally odd. \nReally scary");
+            WriteLine("Late one night you and your friends Patty and Brad visit the old fairgrounds. They're putting up rides and booths for the annual carnival. \nBut this year things look really different. \nReally odd. \nReally scary");
             ReadKey();
             Clear();
             WriteLine("The place is lit up by a hundred fiery torches and spooky music is coming from the main tent.\nThen you meet Big Al, the creepy carnival manager.Hes invited you in to test some of the rides.");
             ReadKey();
             Clear();
             WriteLine("Will you brave the terrifying Supersonic Space Coaster? \nRisk the horrors of the Reptile Petting Zoo? \nSlice through the oily waters of Booger Bog?\n Or confront the evil Snake Lady? \n\nThe choice is yours!!");
+            ReadKey();
+            Clear();
+            WriteLine(@"“I’m Big Al, the manager. And what I say around here goes.”
+                       Big Al digs around in his checkered jacket and pulls out three maps. He hands one to each of you.
+                       “Study them carefully,” he says. “If you have any questions, ask them now.”
+                       Your eyes fall upon the map. You have a question. But when you gaze up, Big Al is gone. He’s vanished!
+                       “A whole carnival to ourselves!” Patty exclaims. “Where should we start?”
+                       You stare down at your map once again. You notice that the carnival is split in half. On one side are the rides. Tons of them. 
+                       On the other side is the midway, packed with games of chance and the Freak Show.
+                       What will you try first?");
             ReadKey();
             Clear();
             static void PlotAorB()

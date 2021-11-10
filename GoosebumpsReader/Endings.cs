@@ -20,12 +20,21 @@ namespace GoosebumpsReader
             ReadKey();
             Clear();
         }
-        public static void SpaceDummy()
+        public static void SpaceDummy()  
         {
-            WriteLine("The Space Coaster breaks down, and Patty and Brad vanish. You decide to stay where you are, but the ride fills with perfume, which immobilizes you. You're taken away by carnival workers as a dummy for a space display.");
+            WriteLine(@"It seems as if hours have passed. Or maybe it’s only minutes.
+You try to unclasp your hands. But they won’t budge. It’s as if your arms are glued around your knees.
+You try to move something. Anything.
+But you can’t blink an eyelid. Your body is paralyzed. You can’t even scream.
+A door opens and two men dressed in overalls and wearing gas masks amble in. Finally. They’re here to rescue you!
+“Looks like the perfume worked,” you hear one of them say.
+“Yeah. And just in time. We needed a new dummy for the Real-Life Space Display,” the other adds.
+They pick up your rigid body and carry you out. No wonder those astronauts in the silver tunnel looked so real!
+Sorry. You can’t scream. You can’t escape.
+Next time, you promise yourself, you’ll stick with the baby rides. But then you remember — there isn’t going to be a next time ... because this is ...THE END!!!");
             ReadKey();
             Clear();
-            Reader.ReaderDies();
+            Reader.TheEnd();
             ReadKey();
             Clear();
         }
@@ -67,7 +76,13 @@ namespace GoosebumpsReader
         }
         public static void SwampMonster()
         {
-            WriteLine("Getting caught and presumably eaten by a swamp monster.");
+            WriteLine(@"You’re too scared to turn around. And too scared not to. Risking a glance over your shoulder, you see a large, dark shape behind you.
+It’s a big man. No. You squint hard. It’s dark and hairy with muddy leaves and green vines trailing from its body. It’s some sort of swamp monster!
+You run as fast as you can. Your chest is on fire. The swamp monster is gaining on you.
+You know you should keep running, but your heart feels as if it’s about to explode. You have to stop.
+You turn and stare right into the swamp monster’s bloody eyes. “Neat costume,” you say hopefully.
+Good try — but the swamp monster isn’t wearing a costume. He’s real and this, unfortunately, is really ...THE END!!!
+");
             ReadKey();
             Clear();
             Reader.ReaderDies();
@@ -139,7 +154,19 @@ namespace GoosebumpsReader
         }
         public static void PattyMonster()
         {
-            WriteLine("After you decide not to trust Patty, she turns into a monster and eats you as she doesn't want you ruining her plans.");
+            WriteLine(@"“I don’t know,” you say. “I don’t think we should take any more risks. Especially not in this crazy carnival.”
+“Don’t you trust me?” Patty demands. Her eyes flash angrily.
+You glance at Brad. He stares at the ground.
+“I just have a bad feeling about this, Patty. Okay?”
+But Patty doesn’t answer. She throws her shoulders back and stands up taller. And taller. And taller.
+You gasp! Patty is growing! She’s nearly ten feet tall!
+She reaches out a long arm and grabs you by the wrist. Her nails dig deep into your skin.
+You can’t move.
+You scream as Patty continues to change. Her skin turns green and lumpy. Horns sprout from her head. And her teeth grow into sharp fangs.
+You remember the horrible monsters on the walls of the slide. Patty has turned into one of them!
+“Let me go. Please!” you plead.
+“Too bad you didn’t trust me,” she growls. “I can’t have you ruining my plans.” Her nails sink deeper into your flesh.
+“Ha-ha-ha!” she cackles. Then she wraps her slimy mouth around your arm and bites down. Hard!");
             ReadKey();
             Clear();
             Reader.ReaderDies();
