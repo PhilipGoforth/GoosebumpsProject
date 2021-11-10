@@ -74,7 +74,42 @@ namespace GoosebumpsReader
             ReadKey();
             Clear();
             WriteLine("Will you brave the terrifying Supersonic Space Coaster? \nRisk the horrors of the Reptile Petting Zoo? \nSlice through the oily waters of Booger Bog?\n Or confront the evil Snake Lady? \n\nThe choice is yours!!");
- 
+            ReadKey();
+            Clear();
+            static void PlotAorB()
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+                string[] options = { "Test out creepy carnival rides..", "Play scary carnival games.." };
+                Menu PlotChoose = new Menu(prompt, options);
+                int selectedIndex = PlotChoose.Run();
+                switch (selectedIndex)
+                {
+                    case 0:
+                        PlotA.SideStory();
+                        ReadKey();
+                        Clear();
+                        break;
+                    case 1:
+                        PlotB.SideStory();
+                        ReadKey();
+                        Clear();
+                        break;
+                }
+            }
+            PlotAorB();
+
         }
     }
 }

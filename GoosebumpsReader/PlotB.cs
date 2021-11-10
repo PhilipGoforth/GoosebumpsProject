@@ -6,5 +6,9 @@ namespace GoosebumpsReader
 {
     class PlotB
     {
+        public static void SideStory()
+        {
+            Console.WriteLine("Test out games...");
+        }
     }
 }
