@@ -1,0 +1,14 @@
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\bin\Debug\netcoreapp3.1\GoosebumpsReader.exe
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\bin\Debug\netcoreapp3.1\GoosebumpsReader.deps.json
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\bin\Debug\netcoreapp3.1\GoosebumpsReader.runtimeconfig.json
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\bin\Debug\netcoreapp3.1\GoosebumpsReader.runtimeconfig.dev.json
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\bin\Debug\netcoreapp3.1\GoosebumpsReader.dll
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\bin\Debug\netcoreapp3.1\GoosebumpsReader.pdb
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.csproj.AssemblyReference.cache
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.AssemblyInfoInputs.cache
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.AssemblyInfo.cs
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.csproj.CoreCompileInputs.cache
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.dll
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.pdb
+C:\Users\Ego\repos\GoosebumpsProject\GoosebumpsReader\GoosebumpsReader\obj\Debug\netcoreapp3.1\GoosebumpsReader.genruntimeconfig.cache

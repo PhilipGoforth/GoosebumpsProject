@@ -6,7 +6,8 @@ namespace GoosebumpsReader
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MainStory myStory = new MainStory();
+            myStory.Start();
         }
     }
 }
