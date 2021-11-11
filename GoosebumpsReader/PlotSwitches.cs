@@ -9,7 +9,7 @@ namespace GoosebumpsReader
     {
         public static void PlotSwitch14()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -41,7 +41,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch13()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -73,7 +73,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch12()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -105,7 +105,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch11()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -137,7 +137,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch15()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -169,7 +169,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch10()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -201,7 +201,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch9()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -233,7 +233,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch8()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -265,7 +265,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch7()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -302,7 +302,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch16()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -334,7 +334,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch6()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -366,7 +366,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch5()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -403,7 +403,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch4()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -416,7 +416,7 @@ namespace GoosebumpsReader
 
                                            What would you like to do?
                                     (Use arrow keys and Enter to select.)";
-            string[] options = { "Leave by the red door...", "Try the blue door..." };
+            string[] options = { "Leave by the red door...", "Try the Yellow door..." };
             Menu PlotChoose = new Menu(prompt, options);
             int selectedIndex = PlotChoose.Run();
             switch (selectedIndex)
@@ -435,7 +435,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch3()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -467,7 +467,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch2()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -499,7 +499,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -531,7 +531,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch17()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -544,7 +544,7 @@ namespace GoosebumpsReader
 
                                            What would you like to do?
                                     (Use arrow keys and Enter to select.)";
-            string[] options = { "If it comes up heads take the blue door..", "If it comes up tails take the red door.." };
+            string[] options = { "If it comes up heads take the Yellow door..", "If it comes up tails take the red door.." };
             Menu PlotChoose = new Menu(prompt, options);
             int selectedIndex = PlotChoose.Run();
             switch (selectedIndex)
@@ -563,7 +563,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch18()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -595,7 +595,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch19()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -627,7 +627,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch20()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -659,7 +659,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch21()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -691,7 +691,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch22()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -723,7 +723,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch23()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -736,7 +736,7 @@ namespace GoosebumpsReader
 
                                            What would you like to do?
                                     (Use arrow keys and Enter to select.)";
-            string[] options = { "Pick the red card..", "Pick the blue card.." };
+            string[] options = { "Pick the red card..", "Pick the Yellow card.." };
             Menu PlotChoose = new Menu(prompt, options);
             int selectedIndex = PlotChoose.Run();
             switch (selectedIndex)
@@ -755,7 +755,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch24()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -787,7 +787,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch25()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -819,7 +819,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch26()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -851,7 +851,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch27()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -883,7 +883,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch28()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -915,7 +915,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch29()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -947,7 +947,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch30()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           
@@ -979,7 +979,7 @@ namespace GoosebumpsReader
         }
         public static void PlotSwitch31()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string prompt = @"
                         88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
                         88        8b   88          d8        8b  88  88        8b   88           

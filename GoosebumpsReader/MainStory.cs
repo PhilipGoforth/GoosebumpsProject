@@ -28,8 +28,11 @@ namespace GoosebumpsReader
                           / __\__ _ _ __ _ __ (_)_   ____ _| |   ___  / _|   /\  /\___  _ __ _ __ ___  _ __ 
                          / /  / _` | '__| '_ \| \ \ / / _` | |  / _ \| |_   / /_/ / _ \| '__| '__/ _ \| '__|
                         / /__| (_| | |  | | | | |\ V / (_| | | | (_) |  _| / __  / (_) | |  | | | (_) | |   
-                        \____/\__,_|_|  |_| |_|_| \_/ \__,_|_|  \___/|_|   \/ /_/ \___/|_|  |_|  \___/|_|   
-                                          (Use arrow keys and Enter to select.)";
+                        \____/\__,_|_|  |_| |_|_| \_/ \__,_|_|  \___/|_|   \/ /_/ \___/|_|  |_|  \___/|_|  
+
+                                                        BY: R.L. STEIN
+
+                                             (Use arrow keys and Enter to select.)";
             string[] options = { "Read Story", "About", "Exit" };
             Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Run();
@@ -65,13 +68,12 @@ namespace GoosebumpsReader
         {
             ReadKey();
             Clear();
-            WriteLine("Late one night you and your friends Patty and Brad visit the old fairgrounds. They're putting up rides and booths for the annual carnival. \nBut this year things look really different. \nReally odd. \nReally scary");
+            WriteLine(@"Late one night you and your friends Patty and Brad visit the old fairgrounds. They're putting up rides and booths for the annual carnival. 
+                        But this year things look really different. Really odd. Really scary");
             ReadKey();
             Clear();
-            WriteLine("The place is lit up by a hundred fiery torches and spooky music is coming from the main tent.\nThen you meet Big Al, the creepy carnival manager.Hes invited you in to test some of the rides.");
-            ReadKey();
-            Clear();
-            WriteLine("Will you brave the terrifying Supersonic Space Coaster? \nRisk the horrors of the Reptile Petting Zoo? \nSlice through the oily waters of Booger Bog?\n Or confront the evil Snake Lady? \n\nThe choice is yours!!");
+            WriteLine(@"The place is lit up by a hundred fiery torches and spooky music is coming from the main tent.
+                        Then you meet Big Al, the creepy carnival manager.Hes invited you in to test some of the rides.");
             ReadKey();
             Clear();
             WriteLine(@"“I’m Big Al, the manager. And what I say around here goes.”
