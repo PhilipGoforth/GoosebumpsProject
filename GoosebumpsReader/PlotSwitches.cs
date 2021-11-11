@@ -721,5 +721,133 @@ namespace GoosebumpsReader
                     break;
             }
         }
+        public static void PlotSwitch23()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Pick the red card..", "Pick the blue card.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.RedCard14();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.BlueCard59();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch24()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Guess your weight on mars..", "Play wheel of chance.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.WeightOnMars72();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.WheelOfChance8();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch25()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "If you think your mars weight is 37 to 39..", "If you think your Mars weight is less than 37.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.MarsWeightHigh53();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.MarsWeightLow22();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch26()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "If you havent tried the wheel of chance..", "If you have played the wheel of chance.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.WheelOfChance8();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.PlayedChance17();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
     }
 }

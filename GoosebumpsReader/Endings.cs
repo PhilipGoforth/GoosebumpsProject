@@ -23,7 +23,14 @@ Reptile’s Petting Zoo? You thought the sign said Reptile Petting Zoo.
         }
         public static void WheelNoChance()
         {
-            WriteLine("The Wheel of Chance lands on NO CHANCE.");
+            WriteLine(@"Round and round the wheel spins. It finally lands on number 15. no chance. No chance. Does that mean what you think it means?
+No chance at all.
+Zip.
+Zero.
+Nothing.
+Nada.
+Negatory.
+Yes. That’s exactly what it means. You have met...");
             ReadKey();
             Clear();
             Reader.ReaderDies();
@@ -59,11 +66,14 @@ Next time, you promise yourself, you’ll stick with the baby rides. But then yo
         }
         public static void GoToMars()
         {
-            WriteLine("After playing Guess Your Weight on Mars, you get blasted off to Mars for 20 years (with a chance of either 10 more or less years). " +
-                "The game determined that you are the perfect weight to be sent to Mars.");
+            WriteLine(@"“Five, four, three, two, one. We have liftoff,” a mechanical voice announces.
+To your horror, the rocket blasts off! You’re slammed against the side of the capsule with hurricane force. Seconds later, you’ve left Earth’s atmosphere.
+A recorded message comes on: “Congratulations. You are the perfect weight for our Mars explorer. 
+We’ll be monitoring your trip and will bring you back in approximately twenty years
+— with a plus or minus ten-year margin of error in case something goes wrong. But do not worry. Nothing can go wrong ... go wrong ... go wrong.”");
             ReadKey();
             Clear();
-            Reader.ReaderDies();
+            Reader.TheEnd();
             ReadKey();
             Clear();
         }

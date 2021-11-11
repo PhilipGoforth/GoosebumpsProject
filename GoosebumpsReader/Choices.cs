@@ -1026,5 +1026,134 @@ It’s Patty and Brad!
             ReadKey();
             Clear();
         }
+        public static void RedCard14()
+        {
+            WriteLine(@"You reach out slowly and touch the red card.
+To your amazement, a 3-D heart magically appears and rises from the flat surface. Then it starts to beat! Tha-dump, tha-dump. It must be some fancy optical illusion. You lean closer to figure out the trick.
+“Yowwwww!” you screech and jerk back to avoid the warm red liquid that nearly squirts in your eye. Is it blood? It looks like blood. “Wow! Cool effect,” you say. “How did you do it?”
+“Turn over the card,” Madame Zeno orders. “Do it now!”
+Madame Zeno really gets into her act. Doesn’t she know this is just a game? you think. But you do as you’re told.
+Big deal. No weird pictures. No hidden fortunes. All you see are the numbers 1,3,2 shimmering in gold script against a midnight background. “What does it mean?” you ask.
+“You will know when the time is right,” the fortune-teller whispers. Her voice is so low, you can barely hear her. “It could save your life!”");
+            ReadKey();
+            Clear();
+            WriteLine(@"“What do you mean the magic number could save my life?” you ask Madame Zeno. But the fortune-teller doesn’t answer. She stares off into space. She seems to have fallen into a deep trance.
+You don’t really believe her — these fortune-tellers are all fakes, but you memorize the number anyway. 1-3-2,1-3-2.1 picked red instead of blue, you chant to help you remember.
+Madame Zeno puts the card back in the deck. She closes her eyes and waves you away with her jeweled hand.
+You guess the fortune-telling is over, so you leave the tent to search for Patty and Brad.
+You squint under the bright lights of the midway, scanning all the game booths. But you can’t find them.
+You’re trying to figure out which way to go when you spot Big A1 coming toward you. He’s not alone. He’s leading a large group of people. As they come closer, you hear that they are chanting something. What is it?
+“PLAY OR PAY. PLAY OR PAY.”
+What does that mean?");
+            ReadKey();
+            Clear();
+            WriteLine(@"“Hi!” you say to Big Al. “Who are all those people?”
+He doesn’t really answer your question.
+“Welcome to the Carnival of Horrors,” he says. “You must play or pay. We have many games on our midway. You must play two.” He practically spits the word must out. “If you succeed, you can win prizes. But if you lose, you pay with your life!”
+Boy, he’s really laying it on thick, you think. But it’s a pretty cool gimmick. “Okay, I’ll play a game. Then I’ve got to go home.”
+“No one goes home,” Big Al says, “until they play. You must play two games. And survive.”
+“Okay. Okay,” you mutter to yourself.
+You glance around the midway at the two closest games. Guess Your Weight on Mars and the Wheel of Chance. You have to pick one to start, or you’ll never get out of here.");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch24();
+            ReadKey();
+            Clear();
+        }
+        public static void BlueCard59()
+        {
+            WriteLine(@"");
+            ReadKey();
+            Clear();
+        }
+        public static void WeightOnMars72()
+        {
+            WriteLine(@"You step up to the Guess Your Weight on Mars booth. A woman in a space suit motions you inside a gate. You pass through and find yourself in the middle of a courtyard that looks just like a miniature launching site — complete with its own rocket!
+“Security check,” the lady says as she presses your hand onto a fake scanner.
+“So how does this game work?” you ask.
+“I’ll guess how much you weigh on Mars,” she explains. “Then you’ll enter the planet simulation chamber and stand on the scale. If I’m stumped by more than one pound up or down, you win a giant candy bar.”
+“What if you guess right?”
+The space lady doesn’t say anything at first. She just smiles. A nasty smile. Then she answers.
+“You lose,” is all she says.");
+            ReadKey();
+            Clear();
+            WriteLine(@"The space lady slowly circles you as she sizes you up from head to toe. “Hmmmm, I think you weigh thirty-eight pounds.”
+“Thirty-eight pounds! Boy, are you wrong!”
+“I’m never wrong,” she says, smirking. She snaps her fingers and two enormous guards appear. They each take one of your arms and drag you out of the courtyard.
+“I don’t weigh thirty-eight pounds!” you yell. But then you remember. It isn’t your weight on Earth that matters. It’s your weight on Mars.
+Do you weigh thirty-eight pounds on Mars? You’d better find out quickly, because something tells you that what Big A1 said about having to survive might be true");
+            ReadKey();
+            Clear();
+            WriteLine(@"You’ve got to figure out what you weigh on Mars. Fast. But how?
+You’re about to give up when you notice a flashing sign. It reads: the GRAVITY ON MARS IS ALMOST 40 PERCENT OF WHAT IT IS ON EARTH. Okay, now you can figure it out.
+Multiply your real Earth weight by four. Now drop off the last digit. For example, if you weigh 90 pounds, 90 x 4 = 360. Dropping off the last digit, you get 36 for your weight on Mars.
+If you don’t want to do the math, you can leave it to luck. Just guess.");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch25();
+            ReadKey();
+            Clear();
+        }
+        public static void WheelOfChance8()
+        {
+            WriteLine(@"You wander over to the Wheel of Chance and immediately notice two strange things.
+First, you read the sign on the booth. It says “Wheel of No Chance.” Then you hear the barker’s voice calling, “Step right up!” But there’s no one there.
+No one but a green-and-yellow parrot.
+“Excuse me,” you say, hoping someone will answer. “Is this game open?”
+“No, I’m standing by this wheel for my health,” the parrot cracks. “Now, do you want to spin or what?”
+The parrot is obviously annoyed. “Mammals,” he mutters. “Can’t live with them, can’t live without them.”
+You steal a glance around. Maybe you should skip this game. But Big A1 sneaks up behind you.
+“Spin,” he says. “You must earn enough points to win.”
+“But how will I know if I have enough points?” you ask.
+“Spin!” It’s his final word.");
+            ReadKey();
+            Clear();
+            Endings.WheelNoChance();
+            ReadKey();
+            Clear();
+        }
+        public static void MarsWeightHigh53()
+        {
+            WriteLine(@"Oh, no! You think the space lady guessed right! Now what’s going to happen?
+The two guards shove you into the space chamber.
+It’s a clear, narrow tube that rises farther up than you can see.
+As the door slams shut behind you, one of the guards barks, “Get on the scale!”
+You step up on the scale — and it shows just how right the space lady’s guess was.
+You press the chamber-door release, but it’s stuck.
+You try again. It doesn’t budge.
+Maybe it’s locked from the outside.
+“Hey! I can’t get out!” you yell to the guards. But they simply wave.
+“Hey, let me out!” Now you’re mad. “Let me out!”
+All at once the room starts to shake and rattle. RRRRRRRR. The thrust of powerful rocket engines echoes in your ears.
+It sounds as if you’re being launched into space. But that’s impossible, isn’t it?");
+            ReadKey();
+            Clear();
+            Endings.GoToMars();
+            ReadKey();
+            Clear();
+        }
+        public static void MarsWeightLow22()
+        {
+            WriteLine(@"You’re pretty sure that the space lady guessed wrong! Now all you have to do is step on the scale to prove it.
+The two goons shove you inside the planet simulation chamber. It’s a long narrow tube, and it’s really stuffy inside. You can barely breathe.
+You step up on the scale. You check the readout. Boy, oh, boy! The space lady is wrong!
+You jump up and down. “I won! I won!”
+Back outside you collect your prize. It’s a huge chocolate bar. You take a big bite out of it and stuff the rest in your pocket.
+You gaze around. The coast is clear. Maybe you can find Patty and Brad and get out of here.
+You walk a few steps forward. But a heavy hand clamps down on your shoulder from behind.
+It’s Big Al.
+“It’s time to play another game,” he says, grinning.");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch26();
+            ReadKey();
+            Clear();
+        }
+        public static void PlayedChance17()
+        {
+            WriteLine(@"");
+            ReadKey();
+            Clear();
+        }
     }
 }
