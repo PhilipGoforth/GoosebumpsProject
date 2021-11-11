@@ -1151,6 +1151,27 @@ It’s Big Al.
         }
         public static void PlayedChance17()
         {
+            WriteLine(@"You take a few steps along the midway hoping you’ve won enough prizes and points. You notice the crowd of people surrounding Big Al. They’re still chanting, “PAY OR PLAY PAY OR PLAY”
+You break through the crowd and grab Big Al’s arm. “Hey! Do you know where my friends are?”
+“Certainly,” Big Al says, pointing up ahead. “They’re right over there!”
+“Patty! Brad!” you shout as you rush up to them. “Come on! We’ve got to go! This carnival is evil!”
+But before they can say a word, Big Al’s voice booms from behind you. “Not before The Final Challenge!”");
+            ReadKey();
+            Clear();
+            WriteLine(@"Big A1 shoves you and your friends into a huge red tent. It seems to be set up for some kind of show. Red carpeted steps lead up to a platform, which sits under a golden arch. The arch twinkles with a thousand colored lights that spell out: FINAL CHALLENGE.
+Trumpets blast as people flood into the viewing area. As they march in, they clap their hands and yell, “FI-NAL. FI-NAL.”
+Big A1 leads you up the carpeted steps. You are standing on the platform now — in front of a shimmering curtain that hangs down from the arch.
+The crowd begins to chant, “SUD-DEN DEATH. SUD-DEN DEATH.”
+“What do you think that means?” Patty asks.");
+            ReadKey();
+            Clear();
+            WriteLine(@"“The Final Challenge,” Big A1 announces. And the crowd goes wild.
+Then he turns to you and says, “Remember — the fun games are over. Now you are playing for your life.”
+“You go first,” Big A1 says to you. You see Brad and Patty taken off to the side by a huge man in a black hood.
+Two red-haired dwarfs in clown costumes scurry up the steps. To your surprise, they fit you with new high-top sneakers — sneakers with metal studs running up the backs. This is going to be some kind of race, you think. But then you change your mind — when they snap a heavy, metal helmet on your head.
+The crowd’s cheers grow louder. Big A1 throws a switch. The curtain behind you parts and — Whammo! The wall behind the curtain turns into a super magnet. You go zinging to the wall like a dart to a bull’s-eye.");
+            ReadKey();
+            Clear();
             WriteLine(@"");
             ReadKey();
             Clear();
