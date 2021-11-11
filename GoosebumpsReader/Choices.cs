@@ -435,7 +435,7 @@ Neither. You stopped on spin again.");
             ReadKey();
             Clear();
         }
-        
+
         public static void Left125()
         {
             Console.WriteLine(@"“This way!” You wave to Patty and Brad.
@@ -466,6 +466,11 @@ You slip quietly off the log, charge for the shore — and plow right into Big A
 “Well, well, well. Look who we have here,” Big Al sings out. “Come with me. It’s time for The Final Challenge.”");
             ReadKey();
             Clear();
+            Final84();
+            ReadKey();
+            Clear();
+        }
+        public static void Final84() { 
             Console.WriteLine(@"Big A1 shoves you and your friends into a huge red tent. It seems to be set up for some kind of show.
 Red carpeted steps lead up to a platform, which sits under a golden arch. The arch twinkles with a thousand colored lights that spell out: FINAL CHALLENGE.
 Trumpets blast as people flood into the viewing area. As they march in, they clap their hands and yell, “FI-NAL. FI-NAL.”
@@ -500,6 +505,7 @@ He gives the wheel — with you on it — a hard turn. Where will it stop? Guess
             PlotSwitches.PlotSwitch7();
             ReadKey();
             Clear();
+
         }
         public static void FollowPatty48()
         {
@@ -1047,6 +1053,13 @@ You’re trying to figure out which way to go when you spot Big A1 coming toward
 What does that mean?");
             ReadKey();
             Clear();
+            ChooseGame16();
+            ReadKey();
+            Clear();
+        }
+
+        public static void ChooseGame16() { 
+         
             WriteLine(@"“Hi!” you say to Big Al. “Who are all those people?”
 He doesn’t really answer your question.
 “Welcome to the Carnival of Horrors,” he says. “You must play or pay. We have many games on our midway. You must play two.” He practically spits the word must out. “If you succeed, you can win prizes. But if you lose, you pay with your life!”
@@ -1062,7 +1075,17 @@ You glance around the midway at the two closest games. Guess Your Weight on Mars
         }
         public static void BlueCard59()
         {
-            WriteLine(@"");
+            WriteLine(@"Blue is your favorite color. You turn the blue card over.
+There is a message: Help us! You are our only hope. Hurry to the back door of the freak show. Signed, The Freaks.
+“What does this mean?” you ask Madame Zeno. She stares deep into your eyes. Her lips tremble. She leans forward. She’s about to speak.
+And then the lights go out — and a blood-curdling scream rips through the dark!
+You start to bolt for the door when a dim light suddenly flickers. You stare across the table. Madame Zeno is gone!
+You reach out to take the card. And it bursts into red-hot flames! In seconds, the entire tent fills with thick smoke. Flames shoot across the floor. You run for the door.
+Outside, you gulp the fresh air. Whew! You made it.
+You glance back. No smoke. No fire. No tent! Everything has disappeared! What should you do now?");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch27();
             ReadKey();
             Clear();
         }
@@ -1172,7 +1195,183 @@ Two red-haired dwarfs in clown costumes scurry up the steps. To your surprise, t
 The crowd’s cheers grow louder. Big A1 throws a switch. The curtain behind you parts and — Whammo! The wall behind the curtain turns into a super magnet. You go zinging to the wall like a dart to a bull’s-eye.");
             ReadKey();
             Clear();
-            WriteLine(@"");
+            WriteLine(@"Seconds later your head and the back of your feet slam into the wall. You’re hanging upside down — in the middle of a gigantic magnetic wheel!
+“Are you ready for The Final Challenge?” Big A1 asks.
+“Of course not!” you say. “LET ME DOWN!”
+“We’ll let you down — but not until you face The Final Challenge. One spin will decide your fate. If you win, you go. If you lose, you stay here forever.”
+Will that be your fate?
+Big A1 approaches the wheel.
+Brad and Patty are holding on to each other.
+Your heart is pounding.
+Your hands are sweating.
+This is it. One spin.
+He gives the wheel — with you on it — a hard turn. Where will it stop? Guess!");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch7();
+            ReadKey();
+            Clear();
+        }
+        public static void HelpFreaks11()
+        {
+            WriteLine(@"You’ve decided to help the freaks. As you race down the midway, you spot Brad and Patty.
+“Listen, guys,” you tell them, lowering your voice. “We’ve got a problem. A big problem.”
+You take a deep breath and tell them all about Madame Zeno and the blue card.
+“So,” you finish saying, “somebody might need our help in the back of the Freak Show.”
+“What’s a freak?” Brad asks nervously.
+“Remember the poster we saw when we came in? The one with the three¬ headed man and the lady with the snake body?” you remind him.
+Brad bites down on his lip. “Are they really real?”
+“Sure they’re real,” Patty chimes in. “I once saw a bearded lady at the circus.”
+“I don’t know,” Brad says. “It sounds kind of creepy.”
+“Well, Madame Zeno said this was my fate. I’m going to help them — whatever they are. Are you guys in?”
+“You bet,” Patty answers, her eyes shining with excitement.
+“Okay, okay. I’ll go,” Brad mumbles.
+“Then let’s hurry!” you exclaim.");
+            ReadKey();
+            Clear();
+            WriteLine(@"Five minutes later, the three of you are sneaking down a dark alley. Brad is so frightened, he’s practically walking on top of you.
+The alley is littered with large cardboard boxes and overflowing trash cans. And it smells like dead fish.
+“Hey! Quit stepping on my shoe,” you say to Brad.
+“I’m not stepping on your shoe,” he shoots back. “I’m not anywhere near your stupid shoe.”
+You glance down. And nearly scream.
+Brad’s right. He’s not stepping on you. But about a dozen rats are.
+You shake your foot wildly. The rats scurry off.
+Brad catches sight of the rats and tries to bolt.
+You and Patty quickly pull him back.
+“Hey! Look!” Patty says, pointing up ahead. “A door!”
+On the door you see a big sign that reads keep out, so ... you go in.");
+            ReadKey();
+            Clear();
+            WriteLine(@"The room is dark, but all around you, you hear hushed moans. “Help us! Help us!”
+“We’re in a prison,” Patty says. “And look at the prisoners! They’re weird!”
+Patty is right. As your eyes grow accustomed to the darkness, you see cell after cell. Each one holds a strange-looking prisoner. There’s an enormous fat lady who’s nearly busting out of the bars. A giant. A dwarf. A young lady with boa constrictors wrapped around her waist. And a woman with a long black beard!
+“We’re the freakssss,” the Snake Lady says. “Every night when the sssshow endssss, the masssster lockssss ussss up.”
+“The master? You mean Big A1 is —” you start to say.
+“You must help us!” the giant interrupts.
+“Sssssssh,” the Snake Lady says. “The master’sssss coming — you musssstn’t be here! Go! That way!” She points to a door down the hall.");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch28();
+            ReadKey();
+            Clear();
+        }
+        public static void DontHelp113()
+        {
+            WriteLine(@"Help some freaks? That’s a good one! You laugh.
+You think about Madame Zeno, the fire, and the disappearing tent. Totally cool! You wonder who thought up such awesome special effects.
+You can’t wait to tell Brad and Patty all about it.
+You search for your friends in the big wooden booths that line the midway. Instead, you find incredible games of chance. Some test your eye-hand coordination. Others require pure luck. But they all offer the most amazing prizes you’ve ever seen — phones, video games, fifteen-speed mountain bikes. You can’t wait to play!
+You spot a booth across the midway with a crowd gathered in front. That’s odd, you think. Didn’t Big A1 say we were the only people at the carnival tonight? You wonder if your friends are in the crowd. You move closer.
+“Oh. I get it,” you say aloud. “These people must work at the carnival.”
+You’re about to call out to them. Until you see their eyes. Strange, haunted eyes");
+            ReadKey();
+            Clear();
+            ChooseGame16();
+            ReadKey();
+            Clear();
+        }
+        public static void Escape48()
+        {
+            WriteLine(@"“Come on!” Patty cries. “Come on!”
+Then, without another word, she races off. You and Brad dash after her.
+I hope Patty knows what she’s doing, you think as you try to catch up. Because right now, it doesn’t look that way.
+Patty leads you through a maze of underground passageways. Then, just as you’re about to yell, “Stop!” — she does. And you find yourself standing outside, in front of a barbed-wire fence!
+Up ahead, you spot an opening.
+“Let’s go in!” Patty says.
+The three of you creep through the fence and trudge through some tall, wet grass. You gaze around. It’s way too dark to see.
+But you can hear perfectly. And the sounds that reach your ears make your skin crawl.
+Slithering. You definitely hear slithering.
+And hissing.
+You want to leave. You spin around, but you can’t find the opening in the fence! You do see something else. A sign");
+            ReadKey();
+            Clear();
+            WriteLine(@"“There’s a sign!” you call out to Patty and Brad. “Let’s see what it says.” The three of you race through the wet grass. Your socks are drenched. And your sneakers squeak as you run. But that’s not the sound that’s sending chills down your spine.
+It’s the hissing. It’s growing louder.
+“I’m not sure I want to read that sign,” you call out to Patty and Brad.
+“I know what you mean!” Patty shouts back. “I have a feeling we’re not going to like what it says.”
+And you don’t. You reach the sign and read it aloud. “Reptile Petting Zoo! Whoever heard of a Reptile Petting Zoo! What kind of carnival is this anyway?” “This carnival is e-evil,” Brad stammers.
+You’re about to agree when you notice the grass in front of you is swaying. Something is slithering through it. Something big. And then it comes into view. “Snake!” Brad cries.
+You know you have to run — but which way? Left or right?");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch29();
+            ReadKey();
+            Clear();
+        }
+        public static void Stay62()
+        {
+            WriteLine(@"You decide to wait for Big Al.
+“Big Al has to free the freaks,” you say to Patty and Brad. “If he doesn’t, we’ll tell him we’re calling the police!”
+“Free the freaks?” Big Al says, bursting into the room. “The freaks are free to go any time. This prison is just part of the show. Did you pull that Tree us’ joke on him?” Big Al laughs heartily.
+“He’ssss lying,” the Snake Lady says. “We’re prisonersssss.”
+“Oh, come now,” Big Al says. “You’re not prisoners.” And with that he unlocks all the cell doors. Then he turns to you and your friends.
+“As you can see, the freaks are free. Now, come with me. You haven’t even tried one game on the midway.”
+“Don’t go with him. It’sssss a trick!” the Snake Lady cries.
+Should you go with Big Al?
+Who’s telling the truth? Al or the Snake Lady?");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch30();
+            ReadKey();
+            Clear();
+        }
+        public static void GoWithAl84()
+        {
+            Final84();
+            ReadKey();
+            Clear();
+        }
+        public static void TrustSnake102()
+        {
+            WriteLine(@"“I’m not going anywhere with you, Big Al. I believe the Snake Lady!”
+“So do I,” says Patty.
+“Me, too!” Brad echoes.
+“That’s too bad,” Big Al says. Then he turns to the Snake Lady.
+“And as for you, Miss Reptilia — I told you, you’ve been overacting. If these kids believe you, we won’t be able to torture them with our real horrors.”
+“Ssssssorry, bosssssss,” she says. “Sssssso what do you want me to do with them?”
+You can hardly believe it! Real horrors?
+“What kind of carnival is this?” you shout.
+“The Carnival of Horrorssssss,” the Snake Lady answers — and that’s the good news.");
+            ReadKey();
+            Clear();
+            WriteLine(@"The bad news is the Snake Lady fooled you.
+“Throw them into the large cell with Harold and all the other prisoners,” Big A1 commands.
+You are shoved into a dark cell. You hear a click. You’re locked in. As the Snake Lady leaves with Big Al, you can hear their laughter echo down the hall.
+You glance into the other cells and think, the freaks are prisoners. They do need our help. Then you peer into the darkness of your cell — to find out who Harold is.
+There’s no way you could miss him. Harold is a giant. He’s huge — twice as big as a football player. His hands are, in fact, the size of two footballs. His arms look like tree trunks.
+At first you are afraid of him, but then you think, Hey! He’s trapped, too. Maybe we can convince him to help us. And then you get a big idea!");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch31();
+            ReadKey();
+            Clear();
+        }
+        public static void Sunny45()
+        {
+            WriteLine(@"The giant looms over you. He’s as tall as the tree outside your house — and a lot meaner. His huge lips part and he says, “You hurt my feelings.”
+Then he begins to cry.
+“I am not a wimp. I am not,” he says between huge sobs.
+He sure looks like a wimp.");
+            ReadKey();
+            Clear();
+            Endings.GiantSmash();
+            ReadKey();
+            Clear();
+        }
+        public static void Night85()
+        {
+            WriteLine(@"The giant hangs over you, flexing his muscles. He squints at you as if you are a bug — ready to be squashed.
+“Did you call me a wimp?” he thunders.
+You are much too scared to answer.
+The giant answers for you. “You’re right. I am a wimp!”
+And with that, he bends the bars, and you, Patty, and Brad scramble through.
+“Follow me,” the giant says. “I know a way out of here.”
+“What about the others?” you ask, pointing to the freaks in the cells that line the wall.
+“No problem!” Patty yells, grabbing the keys from a hook on the wall. “Here — catch!”
+You quickly unlock all the doors — setting the freaks free!");
+            ReadKey();
+            Clear();
+            Endings.FreakShowHome();
             ReadKey();
             Clear();
         }

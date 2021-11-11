@@ -242,7 +242,10 @@ You remember the horrible monsters on the walls of the slide. Patty has turned i
         }
         public static void GiantSmash()
         {
-            WriteLine("A giant slams you into a wall so forcefully that you crash through and fly far out of the carnival, killing you.");
+            WriteLine(@"Well, looks can fool you. He is not a wimp.
+And he’s mad — at you.
+In the next moment, he scoops you up and hurls you at the cell wall.His throw is so forceful, you smash right through the wall and soar out of the carnival grounds.
+Congratulations! You escaped the Carnival of Horrors — but not in one piece.");
             ReadKey();
             Clear();
             Reader.ReaderDies();
@@ -320,18 +323,12 @@ You feel a sharp pain. And you realize you’ve just had the shortest haircut of
             ReadKey();
             Clear();
         }
-        public static void HallOfMirrors()
-        {
-            WriteLine("You're stuck in the mirrored hallways after going left, perpetually turning between two pages.");
-            ReadKey();
-            Clear();
-            Reader.ReaderDies();
-            ReadKey();
-            Clear();
-        }
         public static void FreakShowHome()
         {
-            WriteLine("The Giant, the Fat Lady, and the Three-Headed Man from the Freak Show follow you home, in gratitude for you freeing them. While you make it home intact, you're worried about how much they will eat.");
+            WriteLine(@"“Yay! Our hero!” the freaks cheer as they bolt out of their cells.
+You follow the giant through a side exit.And in no time, you’re leading all your new friends to your house.
+You’re sure your parents won’t mind taking them in.After all, how much can a three - hundred - pound giant, a five - hundred - pound fat lady, and a three¬ headed man eat ? Hmmmm.Better not answer that question.
+Just be happy that you’ve come to...");
         }
         public static void BackToNormal()
         {
