@@ -59,7 +59,8 @@ Next time, you promise yourself, you’ll stick with the baby rides. But then yo
         }
         public static void GoToMars()
         {
-            WriteLine("After playing Guess Your Weight on Mars, you get blasted off to Mars for 20 years (with a chance of either 10 more or less years). The game determined that you are the perfect weight to be sent to Mars.");
+            WriteLine("After playing Guess Your Weight on Mars, you get blasted off to Mars for 20 years (with a chance of either 10 more or less years). " +
+                "The game determined that you are the perfect weight to be sent to Mars.");
             ReadKey();
             Clear();
             Reader.ReaderDies();
@@ -68,7 +69,7 @@ Next time, you promise yourself, you’ll stick with the baby rides. But then yo
         }
         public static void MissTheBridge()
         {
-            WriteLine("You are falling towards jagged rocks and try to grab onto the side of the bridge above, but miss.");
+            WriteLine("You’re falling ..everything passes as if you’re dropping in slow, motion.");
             ReadKey();
             Clear();
             Reader.ReaderDies();
@@ -77,10 +78,17 @@ Next time, you promise yourself, you’ll stick with the baby rides. But then yo
         }
         public static void UsedAsBall()
         {
-            WriteLine("Two of Dr. Frank N. Stone's monsters use you as a volleyball in their game.");
+            WriteLine(@"You can’t take on both monsters, so you decide to wait until one of them leaves the room.
+You grab hold of Dr. Stone’s hand. He’s a lot stronger than he looks. With one small tug, he pulls you free of the web.
+Then he turns to the monsters. “Okay,” he barks. “Adjust the net. It’s time to practice spiking.”
+Spiking? What does he mean by that?
+The monsters leap up. They rub their hands together in evil delight. Then they untie the net and head to the back of the room, where two huge poles rest on the floor.
+You close your eyes — and hope that when you open them, you’ll see that this was all a dream. A really bad dream.
+But when you open your eyes, you know it’s not a dream. No — it’s a volleyball game. The net has been tied to the poles — and guess what position you play? 
+That’s right. You’re the ball! Watch out for those two-handed spikes! They can be pretty painful!");
             ReadKey();
             Clear();
-            Reader.ReaderDies();
+            Reader.TheEnd();
             ReadKey();
             Clear();
         }
@@ -189,7 +197,12 @@ Too bad. The Carnival of Horrors will be one of your favorite haunts — forever
         }
         public static void Beheaded()
         {
-            WriteLine("You try to pull off a monster's head, thinking he might be an animatronic. But he turns out to be an actual monster, and he rips your head off instead.");
+            WriteLine(@"“You’re lying!” you yell. “You are a robot.”
+You quickly reach up with both hands and tug at his head. His sharp jaws slash at you. But you’re fast. You hold on firmly and pull!
+Oh, no! He really is a monster. And he’s not happy.
+You know you’re dead meat, but you have to try one more time. Just to make sure. You give his head one more tug. He laughs. Then he gives your head a tug.
+Sorry. You were doing so well. But now you’ve gone and lost your head.
+The only way you’ll be able to face the challenge of the Carnival of Horrors now is to close the book and begin another day. At least then — you’ll have a head start");
             ReadKey();
             Clear();
             Reader.ReaderDies();
@@ -228,7 +241,16 @@ You remember the horrible monsters on the walls of the slide. Patty has turned i
         }
         public static void BoatMonster()
         {
-            WriteLine("You get saved by a man in a boat. But he turns out to be a monster who saves you for a midnight snack.");
+            WriteLine(@"“Help! Help! Over here!” you scream, waving your arms wildly in the air.
+“Hold on!” a deep voice answers through the heavy mist.
+The boat turns and speeds toward you. As it nears, the voice calls out again. “Jump! Jump over!”
+Jump? Is he crazy? Can you really jump onto a moving boat?
+The boat is coming closer now. Closer. Closer. You stand up. You bend your knees. You’re about to jump — and the boat speeds right past you.
+But wait! It is circling back now in a nice, slow approach. It glides up to you, and gigantic hands pull you onto the boat.
+“You saved me!” you cry.
+You gaze up and gasp in surprise. The man in the other boat isn’t a man — it’s a monster with a drooling snout and rows of jagged teeth.
+“Save you? Save you?” the monster repeats.
+His red eyes light up. “Save you ... good idea,” he says. “I won’t eat you now. I’ll save you for a midnight snack!”");
             ReadKey();
             Clear();
             Reader.ReaderDies();

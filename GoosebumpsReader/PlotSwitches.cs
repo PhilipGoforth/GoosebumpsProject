@@ -129,7 +129,7 @@ namespace GoosebumpsReader
                     Clear();
                     break;
                 case 1:
-                    Choices.Gallop.119();
+                    Choices.Gallop119();
                     ReadKey();
                     Clear();
                     break;
@@ -326,7 +326,7 @@ namespace GoosebumpsReader
                     Clear();
                     break;
                 case 1:
-                    Choices.Right.12();
+                    Choices.Right12();
                     ReadKey();
                     Clear();
                     break;
@@ -459,7 +459,263 @@ namespace GoosebumpsReader
                     Clear();
                     break;
                 case 1:
-                    Choices.NotFollowDwarf();
+                    Choices.NotFollowDwarf33();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch2()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Wait For Help...", "Hop out of car..." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.WaitForHelp();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.LeaveCar();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Join Patty and Brad on Space Mountain", "Go to House of Horrors alone..." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.SpaceCoaster();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.HouseofHorrors64();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch17()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "If it comes up heads take the blue door..", "If it comes up tails take the red door.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.BlueDoor();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.RedDoor();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch18()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Make a grab for the side of the bridge..", "Flap your arms and try to fly.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.BridgeGrab46();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.Flap30();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch19()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Want to try the Boat Trip to nowhere..", "Ready for the house of horrors.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.BoatTrip88();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.HouseOfHorrors66();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch20()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Wait to be rescued..", "Swim for it.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.WaitRescue100();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.Swim56();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch21()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "Turn right..", "Turn left.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.Right29();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.Left118();
+                    ReadKey();
+                    Clear();
+                    break;
+            }
+        }
+        public static void PlotSwitch22()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string prompt = @"
+                        88888888ba,    88888888888  ,ad8888ba,   88  88888888ba,    88888888888  
+                        88        8b   88          d8        8b  88  88        8b   88           
+                        88         8b  88         d8             88  88         8b  88           
+                        88         88  88aaaaa    88             88  88         88  88aaaaa
+                        88         88  88         88             88  88         88  88 
+                        88         8P  88         Y8,            88  88         8P  88
+                        88        88   Y8          .a8       de  88  88       a8P   88
+                        88888888Y      88888888888    Y8888Ya    88  88888888Y      88888888888  
+
+                                           What would you like to do?
+                                    (Use arrow keys and Enter to select.)";
+            string[] options = { "You think its a robot and try to knock its head off..", "If you think its real.." };
+            Menu PlotChoose = new Menu(prompt, options);
+            int selectedIndex = PlotChoose.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    Choices.HeadOff81();
+                    ReadKey();
+                    Clear();
+                    break;
+                case 1:
+                    Choices.RealMonster110();
                     ReadKey();
                     Clear();
                     break;

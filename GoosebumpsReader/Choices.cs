@@ -84,13 +84,9 @@ You also spot a baby ride — the baby choo-choo train — maybe you could squee
 Quick! Pick one — and hope for the best.");
             ReadKey();
             Clear();
-
             PlotSwitches.PlotSwitch14();
             ReadKey();
             Clear();
-
-
-
         }
         public static void Mon114()
         {
@@ -129,9 +125,22 @@ Choose fast!");
             ReadKey();
             Clear();
         }
-        public static void NotFollowDwarf()
+        public static void NotFollowDwarf33()
         {
-
+            Console.WriteLine(@"You glance once more at the dwarf. He lets out an evil cackle. That’s it — there’s no way you can trust him. Besides, 
+you can hear music up ahead. You’re sure you must be near an exit.
+“No, thanks. I don’t need any help,” you mumble.
+He shrugs. “Oh, yes, you do,” he says. But then he sprints off.
+You walk in the direction of the music. But after five minutes, you realize that you’re not getting anywhere.
+Maybe you should have followed the dwarf. You start to think about Patty and Brad. Are they okay? you wonder.
+Just when you think you’ll be wandering these tunnels for the rest of your life, the passageway ends! Now you’re facing two doors — one red and one blue. 
+Which one should you try? You might as well flip a coin!
+Get a coin. Flip it and check whether it comes up heads or tails.");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch17();
+            ReadKey();
+            Clear();
         }
         public static void JumpOut103()
         {
@@ -145,16 +154,19 @@ You scream again as the edge tears loose and the world drops from under your fee
             ReadKey();
             Clear();
             Console.WriteLine(@"You squeeze your eyes shut and wait for the crash. Finally, you land. You glance up. You’re at the foot of the Log Flume ride.
-You, Patty, and Brad have lots of cuts and bruises, but you’re okay! Terrific! you think — until you spot the army of elves with their axes. They’re rushing down the mountain toward you! The only escape is to enter the flume ride, so you dash inside.
+You, Patty, and Brad have lots of cuts and bruises, but you’re okay! Terrific! you think — until you spot the army of elves with their axes. 
+They’re rushing down the mountain toward you! The only escape is to enter the flume ride, so you dash inside.
 The Log Flume reminds you of a western logging camp, complete with log cabins, trees, trucks, and a sparkling blue lake.
-In the distance, you can hear the buzz of chain saws. And down by the lake, giant cranes pick up logs and plop them in the water. Some of the logs are hollowed out in the middle with seats for passengers. As you watch, the current catches one. It glides to the edge of a waterfall, plunges over, and shoots down.
+In the distance, you can hear the buzz of chain saws. And down by the lake, giant cranes pick up logs and plop them in the water. 
+Some of the logs are hollowed out in the middle with seats for passengers. As you watch, the current catches one. It glides to the edge of a waterfall, plunges over, and shoots down.
 As you glance around, you spot an exit sign.
 Then to your horror, you see a giant crane swinging your way. “Duck!” you scream.
 Will you make it to the exit? Is this your lucky day?");
             ReadKey();
             Clear();
-
             PlotSwitches.PlotSwitch12();
+            ReadKey();
+            Clear();
         }
         public static void MountainKing107()
         {
@@ -194,9 +206,9 @@ You are about to show it to your friends when Brad cries out, “Look at the elv
 What do you think you should do?");
             ReadKey();
             Clear();
-
             PlotSwitches.PlotSwitch11();
-
+            ReadKey();
+            Clear();
         }
         public static void Cant127()
         {
@@ -211,6 +223,8 @@ Quick! Pick one — and hope for the best.");
             ReadKey();
             Clear();
             PlotSwitches.PlotSwitch14();
+            ReadKey();
+            Clear();
         }
         public static void Can73()
         {
@@ -248,12 +262,9 @@ The three of you leap out of the moving car. But are you fast enough? That depen
 Try this test and find out. Throw a ball in the air. Try to clap three times before you catch it");
             ReadKey();
             Clear();
-
             PlotSwitches.PlotSwitch15();
             ReadKey();
             Clear();
-
-
         }
         public static void Slide95()
         {
@@ -313,6 +324,8 @@ Brad shakes his head. “You wouldn’t believe the rides we were on!”
         public static void DontLeave86()
         {
             Endings.PattyMonster();
+            ReadKey();
+            Clear();
         }
         public static void Right12()
         {
@@ -422,6 +435,7 @@ Neither. You stopped on spin again.");
             ReadKey();
             Clear();
         }
+        
         public static void Left125()
         {
             Console.WriteLine(@"“This way!” You wave to Patty and Brad.
@@ -637,6 +651,378 @@ It’s kind of a sweet smell — like heavy perfume. You hold your nose because 
             ReadKey();
             Clear();
             Endings.SpaceDummy();
+            ReadKey();
+            Clear();
+        }
+        public static void SpaceCoaster()
+        {
+            Console.WriteLine(@"“Hey, wait up!” you yell to Brad and Patty as you sprint through the Space Coaster gate.
+They both ignore you and charge straight ahead. You follow them into a narrow tunnel that leads to the boarding area.
+You gaze down at the floor. Black rubber. It makes you walk with a strange bounce.
+Every few feet there is a round porthole window. When you glance out one, you see astronauts planting flags on the moon. You peer out another. 
+Now they’re seated in their capsule. This is amazing, you think. The figures look real. Totally real.
+After a long climb, you and Patty and Brad finally arrive at the loading area.
+A sleek bullet-shaped capsule whooshes up and stops right beside you. It has three sections. Brad climbs defiantly into the last section. You leap into the front. 
+Patty’s left with the middle section.
+And suddenly you’re trapped!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"Steel bars plunge down from above and drop across your lap and chest, pinning you in place.
+You can’t move at all. Even your head is held by superstrong headphones that clamp over your ears. A voice comes through them announcing: “Five, four, three, two, one, BLAST OFF!”
+You hear a huge bang. Smoke and fireworks fill the air as your car starts up the first big hill. Your head presses back against the seat as you climb higher and higher. 
+That first hill is endless, but the view is awesome. From the top, you can see the midway, the haunted house, and a shadowy swamp. You can’t believe how big the carnival is!
+“Neat!” Patty yells. “There’s AHHHH —”
+Whatever she was going to say turns into a wild scream as the rocket plunges down the other side of the hill. The wind whips at your face.
+You are pressed back so hard, you feel like a pancake. Everything passes in a fantastic blur.
+As your car shoots up to the top of the next hill, you’re laughing and screaming at the same time. This is great, you think! But then you make a big mistake");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"You close your eyes. When you open them, your car lunges forward with a burst of speed — and you loop-the-loop. 
+Your mouth drops open to scream, but no sound comes out.
+Now your car starts to plunge downward — like an elevator out of control. Your heart pounds in your chest. This is the fastest and best roller coaster you’ve ever been on!
+As you near the bottom, you slow down. You begin to catch your breath. And then you see what’s up ahead. A huge black hole — a tunnel!
+As you shoot toward the open mouth of the tunnel, you begin to scream again. The door of the tunnel is about to close!
+Snap! The door comes crashing down — behind your car. You breathe out a long sigh. But now you’re in a tunnel so dark that you can’t see a thing.
+Scary! But not nearly as scary as what happens next.");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"The ride stops.
+Dead.
+You are sitting in the dark.
+Nothing is moving.
+“Patty! Brad!” you call.
+Silence.
+Why don’t they answer? They have to be there.
+You try to twist around. But you’re locked in your harness and clamped in your headrest.
+Blinking in the dim light, your eyes dart to the left. Then to the right. You spot dozens of empty space rockets lining the walls. 
+They seem to come in sections, making longer and shorter space rockets.
+Your mind starts working feverishly. Did your section detach from Patty and Brad’s section?
+Suddenly, the silence is shattered. Your seat lock grinds open, and you are released from your harness. You quickly spin around. 
+Patty’s and Brad’s cars have disappeared! If this is all part of the ride, maybe you should hop out. 
+But if the ride is broken, maybe you should wait for help.");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch2();
+            ReadKey();
+            Clear();
+        }
+        public static void HouseofHorrors64()
+        {
+            Console.WriteLine(@"The House of Horrors! You have to see it. You just have to!
+“I’ll catch up with you guys later,” you call to Patty and Brad. “I’m going to check out the haunted house.”
+You glance down at your map for directions. The rickety wooden bridge over to your left appears to lead straight there.
+As you start across the bridge, the wooden planks creak under your feet. Then the bridge begins to sway. You look down. Way down. 
+The bridge spans a deep, rocky gorge. Gulping, you grab the handrail. You move slowly. A strong wind blows up from the canyon below. The bridge is swaying wildly now, tossing from side to side.
+A massive spear of lightning splits the sky. Thunder rumbles so loudly you jump and lose your balance. “Help!” you scream as you tumble right over the side — and plunge toward the jagged rocks below!");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch18();
+            ReadKey();
+            Clear();
+        }
+        public static void Flap30()
+        {
+            Console.WriteLine(@"You’re falling ... falling ... You can’t think of anything else to do, so you start flapping your arms like a bird.
+At that moment a huge gust of air shoots up from under you and blows you back onto the bridge.
+Breathing hard, you run the rest of the way across the rickety span. When you reach the safety of the other side, you glance back. And gasp!
+The bridge and the midway beyond it have vanished! Only a black void remains!
+“Wow! Awesome special effects!” you cry out loud. But was your fall part of the special effects, too? It didn’t feel like it.
+You spin around to face the House of Horrors. Up close it appears really, really creepy. Cobwebs drip down from its roof and an eerie yellow light glows inside. 
+Cool! Next to the house you spot a sign that reads boat trip to nowhere. There are amazing speedboats that you can drive yourself.
+Which should you try first?");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch19();
+            ReadKey();
+            Clear();
+        }
+        public static void BridgeGrab46()
+        {
+            Endings.MissTheBridge();
+            ReadKey();
+            Clear();
+        }
+        public static void BoatTrip88()
+        {
+            Console.WriteLine(@"You head toward the Boat Trip to Nowhere. At the dock, you spot a stubby guy with long arms slouching against one of the mooring posts. In the strange light of the swamp, his skin shines with an oily, green glow. And his ears and nose are as craggy as tree bark.
+“Step right up,” he calls in a gravelly voice.
+He pulls one of the motorboats over. It’s red with a silver racing stripe! “You can do fifteen knots in these babies,” he says. “But stay away from the tree stumps.”
+You watch the little man’s sharp green fingernails tearing the mooring rope apart. As soon as the boat is free, you jump in, step on the gas, and roar away from the dock.
+The wind blows hard against your face. You’re flying over the water. This is totally cool! You head for a channel that you see up ahead. Too bad you didn’t notice that sign that reads: to booger bog");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"Your boat glides through the channel at high speed to Booger Bog. Water sprays up into your face. But soon you have to slow down. Trees have suddenly sprung up all around you. You’re completely surrounded now by their towering trunks.
+In the dark light, their limbs take on the shape of gnarled arms with blackened, bony fingers at the ends. You stare hard at the tree trunks. Could it be? Are they reaching out for you?
+You slowly weave the boat through the twisted trunks and branches. They’ve grown so thick here that you can barely pilot your boat through them.
+The trees rustle as if they’re whispering to each other. Their limbs begin to sway. As you glide carefully through the water, the leaves slap against your face. Slap. Slap. Slap.
+Your heart starts hammering away in your chest. This is really scary. Just how far is nowhere? you begin to wonder. Something swipes at your hair! What was that?");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"It’s a tree branch! Grabbing at you. Tugging, tugging at your hair. You can’t break free. Its gnarly stubs dig in deeper as you struggle.
+Suddenly, you feel something wrap itself around your arms. Then your legs. Closing in tighter. Tighter.
+You gaze down and see them — black knobby tree limbs twisting around you. Strangling you.
+You drop hold of the steering wheel and begin to claw at the branches, ripping them away.
+And then you peer up — and see a terrifying sight. It’s a huge tree. And you’re headed straight for it! You grasp the steering wheel to regain control of the boat. The tree is just inches away.
+Are you going to CRASH?!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"NO!
+At the last minute, you wrench the steering wheel hard to the left. The side of your boat clears the tree with a sickening scrape.
+You breathe a sigh of relief, but it ends in a groan. A huge, sharp root below the water has just ripped into the bottom of your boat. You hear a tearing sound, then gurgling as the cockpit starts to fill with water.
+“Now what?” you mutter.
+Then through the mist you spot another boat. But it’s some distance away.
+“Hey, over here!” you cry out.
+Did they hear you? You cry out again. Then you glance behind you. More than half your boat is underwater — and you’re going down fast.
+What should you do? Keep yelling for help? Or try to swim for safety? Make your choice — QUICK!");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch20();
+            ReadKey();
+            Clear();
+        }
+        public static void HouseOfHorrors66()
+        {
+            Console.WriteLine(@"You start up the brick path to the House of Horrors. Suddenly, someone sneaks up behind you and taps you on the shoulder. You spin around and jump back.
+Standing in front of you is a bony skeleton.
+And it talks.
+“Don’t go in there,” the skeleton says. “Or you’ll end up like me....”
+You stare in terror at the hideous creature. Then you burst out laughing.
+“Wow! You guys really want to make the haunted house totally creepy. This is going to be great!” you say.
+You’re still chuckling as you push open the giant oak door of the House of Horrors. It swings back with a long, loud creak.
+You step inside and find yourself in a narrow hallway. The door slams shut behind you and the hall turns darker than a starless night. “I can’t even see my hands!” you exclaim.
+You stumble ahead slowly, pressing your palms against the walls to guide you.
+When will this tunnel end?");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"You turn a corner and are instantly blinded by glaring lights.
+You are standing in a room of mirrors. Walls. Floor. Ceiling. All mirrors!
+Everywhere you gaze, you are met with reflections of yourself! You take a few steps forward and — BONK! You hit your head on solid glass.
+You move one step to the left, and a dozen copies of you move in that direction.
+Totally dizzy, you close your eyes. Maybe you can find the exit with your hands. Keeping your eyes shut, you walk until your palms hit against another glass wall. Then you hear a voice. “Come this way. Over here,” it calls.
+You walk toward the voice — BONK — a solid wall again.
+Finally, your hands find an open doorway! It leads to a mirrored hallway that goes left and right. Which way will you go?");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch21();
+            ReadKey();
+            Clear();
+        }
+        public static void Right29()
+        {
+            Console.WriteLine(@"You stumble down the corridor to your right. As you peer from side to side, you are met with hundreds of images of — you! And you look pretty baffled. And scared.
+“Hey, I could use some help,” you call out.
+Silence.
+You pound your fist against the wall.
+The wall starts to move.
+Just an inch or two — an inch or two closer to you!
+You take a step back — but the wall behind you is moving, too.
+The walls are moving together. They’re closing in on you.
+You’re going to be crushed!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"The walls are closing in faster now.
+You throw your arms out and try to push them away. But it’s hopeless. You’re going to be crushed like a bug.
+You suck in a deep breath — it could be the last breath you take.
+The floor opens beneath your feet!
+You drop down. Down. Down. Down. A long, agonizing scream escapes from your throat as you tumble through space.
+Will you ever hit bottom?
+“Incoming player,” you hear a commanding voice shout. “Stations, everybody.”
+A layer of webbing catches you like one of those nets trapeze artists use. Gasping, unable to understand what’s happening, you bounce up and down.");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"You snap your head around to the right — where you hear footsteps coming toward you.
+You are facing a short man with wrinkly skin and bloodshot eyes. His bushy black hair resembles a scouring pad — and from the looks of it, it probably feels like one, too. His evil expression makes you cringe.
+But he’s nothing compared to the “things” in back of him — two seven-foot- tall monsters. One has blue horns and bulging red eyes. The other has scaly skin and an alligator snout that snaps open and closed as he eyes you.
+The trio all wear lab coats. And from the eager way they’re looking at you, you realize that you are the lab rat.
+You struggle to escape from the net. But you’re trapped in the webbing. Like a fly in a spider’s web.
+“Welcome to my humble laboratory,” the short man says. “I am Dr. Frank N. Stone, the mastermind who created the Carnival of Horrors.”
+The Carnival of Horrors! You don’t like the sound of that!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"Dr. Stone extends a long bony hand to pull you from the net. When you peer into his face, his eyes roll up into his head.
+“Pleased to meet you,” he rumbles.
+Did he say, “Pleased to meet you” or “Pleased to eat you”? You’re not sure, and you don’t want to hang around to find out.
+I’ve got to get out of here, you think.
+As the doctor lowers his hand a bit more, you wriggle your right foot free of the netting. If you give him one hard kick in the stomach, maybe you can make a run for the door.
+But what about the monsters? Can you dodge them?
+You change your mind. “I’ll wait — play it cool until at least one of the beasts leaves the room,” you say to yourself.
+Then you change your mind again. “No. I’d better make my escape now!”
+The doctor looms inches away. And you’re still not sure what to do. You’d better decide fast!");
+            ReadKey();
+            Clear();
+        }
+        public static void KickDoc79()
+        {
+            Console.WriteLine(@"The doctor leans over. He’s so close now, his sour breath fills your nostrils. Then his fingertips brush your hand and — POW! Your foot flies into his stomach! A direct hit!
+But nothing happens.
+He doesn’t scream. He doesn’t even moan. In fact, he doesn’t seem to notice at all.
+He simply smiles at you.
+Now you’re scared. Really scared. But you know you have to do whatever it takes to get out of there. You have to find your friends and escape from this Carnival of Horrors.
+You gather up every ounce of courage and strength you have — and kick him once more. Harder!
+And this time something does happen — BIG TIME!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"Thrumpff! Your foot plows into the doctor’s stomach again. But this time, it smashes right through it. And hits ... solid steel!
+The crunch of metal echoes in the room — along with the doctor’s screams. “Aiiii!” he wails like a siren.
+You gaze into the gaping hole your sneaker made. Thousands of circuits and wires burn and crackle inside it. The doctor is a robot! Well, an ex-robot now. Your kick totally destroyed him.
+That’s the good news.
+The bad news is headed for you. It’s the monster with the blue horns and red, bulging eyes.
+You scramble out of the net and dash toward the door. But the monster is too quick for you. His tentacle arms shoot out and snatch you. Giant suckers at the ends of his wrists circle your throat.
+You gasp for air as the monster pins you against the wall. Can you free yourself from his oozing grasp?");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"The red-eyed beast leans against you now, pressing you hard against the wall. The monster moves his face close to yours. The jagged horns at the top of his head nick your cheeks.
+You can’t bear it anymore. You bring your hand up with all your might and shove his head away from yours.
+As you watch in horror, the monster’s head rolls off its neck. The head tumbles to the floor and lands at your feet.
+The eyes glance up at you, and you notice his hideous lips moving. “That hurt,” the head says. “That really h-h-...”
+He never finishes. You’ve destroyed another robot!
+“Almost out of here,” you whisper to yourself. Now all you have to do is slip by the crusty, alligator-snout creature guarding the door.
+“You robots aren’t so tough,” you say to him with fake bravery.
+“Oh, really?” the scaly beast croaks. “Well, maybe not. But what makes you think that / am a robot?”");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"The creature slides one step toward you, and with a burning stare says, “I am not a robot. I am not going to shut down. So don’t bother with any of your silly, human tricks!”
+You stare at him. You study him hard. Is he lying? Is he a robot like the other two? Or could he be a lot more dangerous?
+Your knees begin to tremble when you think about never going home — never seeing your family and friends ever again. Tears start to sting your eyes. Angry tears! No carnival — not even a Carnival of Horrors — is going to defeat you!
+You stare deeply into the evil eyes of the creature hovering before you.
+Robot? Real monster? You finally decide!");
+            ReadKey();
+            Clear();
+
+        }
+        public static void HeadOff81()
+        {
+            Endings.Beheaded();
+            ReadKey();
+            Clear();
+        }
+        public static void RealMonster110()
+        {
+            Console.WriteLine(@"Something tells you that this monster is not a robot. This one is for real. Maybe it’s the way he stares into your eyes. 
+Or maybe it’s the rows and rows of razor-sharp teeth jutting from his mouth.
+You take a step back. He takes a step closer. A drop of his drool drips on your hand. It sizzles and burns.
+This is the end, you figure. You’ll never escape the Carnival of Horrors. Never see your family or Patty and Brad again.
+The monster lifts his gigantic, clawed hand. He waves it over your head.
+And you wait for the searing pain as it plunges down to strike you.
+But that’s not what happens.
+The monster slowly lowers his hand and clutches at his own neck, and then — pulls his own head off! And when you discover what’s underneath, you know you’re still in big trouble!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"Those eyes behind the alligator snout — those beady eyes. You should have recognized them before. It’s Big Al.
+“Hey! You did a great job here,” he says warmly. “You’ve really got the stuff for the Carnival of Horrors.”
+“Uh, thanks,” you mumble. “But I really have to go home now.”
+“What’s the rush?” he asks, patting you on the shoulder. “Aren’t you having fun?”
+Fun? you think. Crushed between solid walls. Then attacked by a bulging¬ eyed monster. Fun? No. This isn’t fun. This is weird.
+“Uh, yeah. It’s been really great. But, um, I really do have to get home,” you stammer. “So if you’ll just take me to wherever Patty and Brad are — and show us the way out — we’ll be going.”
+“I’m afraid that isn’t possible,” Big Al says. “Just open the door and you’ll understand.”");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"You open the door and enter a room bursting with people who seem to be waiting for you. You think that’s weird until you study them — and realize something even stranger. They’re all dressed up in old-fashioned costumes.
+“Welcome to the Carnival of Horrors,” a tall woman with a red parasol says, smiling. “Nice of you to join us.”
+The Carnival of Horrors. The words send shivers down your spine.
+The woman with the parasol whispers in your ear, “Don’t you want to know the secret of the Carnival of Horrors?”
+You nod yes.
+“The Carnival of Horrors comes alive in a different place and a different time each night. Tonight we’re in your town. Tomorrow we could be in another country! But every place we stop, we invite kids like you to join us....”
+“Thanks for the invitation,” you say, “but I gotta go.”
+“I’m sorry.” The lady chuckles. “You can never escape from the Carnival of Horrors,” she says solemnly. “Unless ...”");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"“Unless what?” you scream. “Tell me!”
+“You can escape the Carnival of Horrors if you leave before closing time.” “When is closing time?” you shoot back.
+“When the last ride stops....” the lady whispers. “At midnight. ”
+You glance at your watch — 11:40. Twenty minutes — that’s not so bad. But how do you get out of here?
+As if the lady can read your mind, she says, “There’s only one right way.” Then all around you, the crowd begins to chant.
+“ONLY ONE RIGHT WAY, ONLY ONE RIGHT WAY.” They repeat it over and over again.
+“What is it?” you scream. “Which way?”
+It’s useless. They’re not going to tell you.
+But it’s not midnight yet. There’s still time to figure it out.
+Until the floor begins to tremble. And the walls begin to shake.
+Earthquake!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"A wave of panic washes over you as the walls crumble around you. You throw your arms over your head and close your eyes.
+Then silence. The shaking stops.
+When you open your eyes, the room and all the costumed people have vanished. And you are outside — in the rides area! But the biggest surprise of all is that you spot Patty and Brad!
+“Boy, am I glad to see you,” you say, racing over to them. “Where have you guys been?”
+Brad shakes his head. “You wouldn’t believe the rides we were on!”
+“We’ve got to get out of here before midnight,” you say. Quickly, you tell your friends about the warning from the lady with the red parasol.
+“No problem,” Patty says. “Look. I’m sure the exit is right over there past that ride called the Hall of the Mountain King.”
+“No, it’s that way — near the sign that says ‘Halloween Express,’ ” Brad insists");
+            ReadKey();
+            Clear();
+            PlotSwitches.PlotSwitch10();
+            ReadKey();
+            Clear();
+        }
+        public static void Wait51()
+        {
+            Endings.UsedAsBall();
+            ReadKey();
+            Clear();
+        }
+        public static void Left118()
+        {
+            Console.WriteLine(@"You turn left. Somewhere ahead of you, you hear laughter.
+“Is somebody there?” you call out.
+Silence.
+You stare at your reflections in the mirrored hall.
+Am I trapped? you wonder. Am I in real danger? Or is this all a big, scary joke? Your heart begins to race.
+You inch forward a few more steps — moving toward the laughter. Slowly. “Over here,” a voice calls again. But now the voice seems to be coming from behind you");
+            ReadKey();
+            Clear();
+            Mirror36();
+            ReadKey();
+            Clear();
+        }
+        public static void Mirror36()
+        {
+            Console.WriteLine(@"You turn back and head in the other direction. Your reflections bounce off the walls at crazy angles. Are you walking straight, or have you rounded a corner? There’s no way to tell. Yet this time you’re sure you’re going the right way!
+“Over here!” a voice calls. “Turn left again!”
+Turn left again? Now you are really confused.
+If you turn left again, will you finally escape?");
+            ReadKey();
+            Clear();
+            Left118();
+            ReadKey();
+            Clear();
+        }
+        public static void WaitRescue100()
+        {
+            Endings.BoatMonster();
+            ReadKey();
+            Clear();
+        }
+        public static void Swim56()
+        {
+            Console.WriteLine(@"You leap out of the boat. The putrid brown water splashes into your mouth. Gross!
+You swim a few strokes and suddenly find your knees scraping the bottom of the bog. The water here is less than a foot deep. Unbelievable! You were practically inches away from safety the entire time!
+Slogging through the brown foam, you wade to shore. Your clothes are dripping wet and smell like a sewer. Well, look at the bright side, you remind yourself. At least you didn’t go down with your boat.
+But your troubles aren’t over yet. You’re standing in a dank, eerie forest that surrounds the lake. Creepy screeches echo through the night mist. And you’re totally lost.
+The wind starts to blow. Shivering, you wrap your arms around your shoulders and wonder where your friends are and what they are doing.
+Then — POW! Something black and furry swoops down at you! You duck your head, but it comes at you again and again.
+A huge bat!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"You cover your head with your hands and try to run into a thick grove of trees. But the bat circles in front of you and dives again.
+“Stop it! Stop it!” you scream.
+As you turn and race toward some low bushes, you remember the stories — the horrible stories about bats making nests in people’s hair. And the only way to get them out was to shave your head....
+Those stories weren’t true — were they?
+You spot a big stick in the wet dirt and scoop it up.
+The bat swoops down at you once more and — FWAP! You hit it.
+The bat falls to the ground.
+And you see it’s on a wire.
+It’s a mechanical bat.
+All part of the ride, you think. You think about the boat ride. Boy, they really make things seem real at this carnival, you think. You feel much better when you gaze up ahead. There’s a clearing.
+But when you see what’s there — you scream!");
+            ReadKey();
+            Clear();
+            Console.WriteLine(@"What a sight!
+You can hardly believe your eyes! You scream again.
+It’s Patty and Brad!
+“Hey, guys, wait up!” you yell.");
+            ReadKey();
+            Clear();
+            SpaceCoaster();
             ReadKey();
             Clear();
         }
