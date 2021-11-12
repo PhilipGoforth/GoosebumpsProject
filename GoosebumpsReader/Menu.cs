@@ -29,13 +29,13 @@ namespace GoosebumpsReader
 
                 if (i == SelectedIndex)
                 {
-                    selector = "                                         *";
+                    selector = "                                      =>";
                     ForegroundColor = ConsoleColor.Green;
 
                 }
                 else
                 {
-                    selector = "                                          ";
+                    selector = "                                         ";
                     ForegroundColor = ConsoleColor.White;
                 }
                 WriteLine($"{selector}<<{currentOption}>>");

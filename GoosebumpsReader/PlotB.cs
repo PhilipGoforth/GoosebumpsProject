@@ -9,7 +9,8 @@ namespace GoosebumpsReader
     {
         public static void SideStory()
         {
-            WriteLine(@"“Let’s head for the midway and play some games!” you say.
+            WriteLine(@"
+                            “Let’s head for the midway and play some games!” you say.
                         You, Patty, and Brad jog down a wide avenue. Tents of every color line the street. Carnival music blares from loudspeakers.
                         You spot a green neon sign flashing above a yellow-striped tent. The sign reads: madame zeno — fortune-teller.
                         “Excellent!” you exclaim. “I’m going in!”
@@ -20,7 +21,8 @@ namespace GoosebumpsReader
                         “Welcome,” she whispers. Then she reaches out and gently lifts your hand. “Let me tell you your future.”");
             ReadLine();
             Clear();
-            WriteLine(@"Madame Zeno studies your hand closely. She traces the lines in your hand with her soft fingers.
+            WriteLine(@"    
+                            Madame Zeno studies your hand closely. She traces the lines in your hand with her soft fingers.
                         “I see horror in your future. In your immediate future,” she warns.
                         “Wh-what kind of horror?” you stammer. “What do you mean?”
                         Madame Zeno releases your hand. She picks up a strange deck of cards. She spreads them out on the table.

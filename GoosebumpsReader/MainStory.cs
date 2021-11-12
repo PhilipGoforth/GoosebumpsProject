@@ -15,24 +15,24 @@ namespace GoosebumpsReader
         public static void RunMainMenu()
         {
             string prompt = @"
-                          ▄████  ▒█████   ▒█████    ██████ ▓█████  ▄▄▄▄    █    ██  ███▄ ▄███▓ ██▓███    ██████ 
-                         ██▒ ▀█▒▒██▒  ██▒▒██▒  ██▒▒██    ▒ ▓█   ▀ ▓█████▄  ██  ▓██▒▓██▒▀█▀ ██▒▓██░  ██▒▒██    ▒ 
-                        ▒██░▄▄▄░▒██░  ██▒▒██░  ██▒░ ▓██▄   ▒███   ▒██▒ ▄██▓██  ▒██░▓██    ▓██░▓██░ ██▓▒░ ▓██▄   
-                        ░▓█  ██▓▒██   ██░▒██   ██░  ▒   ██▒▒▓█  ▄ ▒██░█▀  ▓▓█  ░██░▒██    ▒██ ▒██▄█▓▒ ▒  ▒   ██▒
-                        ░▒▓███▀▒░ ████▓▒░░ ████▓▒░▒██████▒▒░▒████▒░▓█  ▀█▓▒▒█████▓ ▒██▒   ░██▒▒██▒ ░  ░▒██████▒▒
-                         ░▒   ▒ ░ ▒░▒░▒░ ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░░░ ▒░ ░░▒▓███▀▒░▒▓▒ ▒ ▒ ░ ▒░   ░  ░▒▓▒░ ░  ░▒ ▒▓▒ ▒ ░
-                          ░   ░   ░ ▒ ▒░   ░ ▒ ▒░ ░ ░▒  ░ ░ ░ ░  ░▒░▒   ░ ░░▒░ ░ ░ ░  ░      ░░▒ ░     ░ ░▒  ░ ░
-                        ░ ░   ░ ░ ░ ░ ▒  ░ ░ ░ ▒  ░  ░  ░     ░    ░    ░  ░░░ ░ ░ ░      ░   ░░       ░  ░  ░  
-                              ░     ░ ░      ░ ░        ░     ░  ░ ░         ░            ░                  ░  
-                           ___                 _            _          __                                   
-                          / __\__ _ _ __ _ __ (_)_   ____ _| |   ___  / _|   /\  /\___  _ __ _ __ ___  _ __ 
-                         / /  / _` | '__| '_ \| \ \ / / _` | |  / _ \| |_   / /_/ / _ \| '__| '__/ _ \| '__|
-                        / /__| (_| | |  | | | | |\ V / (_| | | | (_) |  _| / __  / (_) | |  | | | (_) | |   
-                        \____/\__,_|_|  |_| |_|_| \_/ \__,_|_|  \___/|_|   \/ /_/ \___/|_|  |_|  \___/|_|  
+           ▄████  ▒█████   ▒█████    ██████ ▓█████  ▄▄▄▄    █    ██  ███▄ ▄███▓ ██▓███    ██████ 
+          ██▒ ▀█▒▒██▒  ██▒▒██▒  ██▒▒██    ▒ ▓█   ▀ ▓█████▄  ██  ▓██▒▓██▒▀█▀ ██▒▓██░  ██▒▒██    ▒ 
+         ▒██░▄▄▄░▒██░  ██▒▒██░  ██▒░ ▓██▄   ▒███   ▒██▒ ▄██▓██  ▒██░▓██    ▓██░▓██░ ██▓▒░ ▓██▄   
+         ░▓█  ██▓▒██   ██░▒██   ██░  ▒   ██▒▒▓█  ▄ ▒██░█▀  ▓▓█  ░██░▒██    ▒██ ▒██▄█▓▒ ▒  ▒   ██▒
+         ░▒▓███▀▒░ ████▓▒░░ ████▓▒░▒██████▒▒░▒████▒░▓█  ▀█▓▒▒█████▓ ▒██▒   ░██▒▒██▒ ░  ░▒██████▒▒
+          ░▒   ▒ ░ ▒░▒░▒░ ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░░░ ▒░ ░░▒▓███▀▒░▒▓▒ ▒ ▒ ░ ▒░   ░  ░▒▓▒░ ░  ░▒ ▒▓▒ ▒ ░
+           ░   ░   ░ ▒ ▒░   ░ ▒ ▒░ ░ ░▒  ░ ░ ░ ░  ░▒░▒   ░ ░░▒░ ░ ░ ░  ░      ░░▒ ░     ░ ░▒  ░ ░
+         ░ ░   ░ ░ ░ ░ ▒  ░ ░ ░ ▒  ░  ░  ░     ░    ░    ░  ░░░ ░ ░ ░      ░   ░░       ░  ░  ░  
+               ░     ░ ░      ░ ░        ░     ░  ░ ░         ░            ░                  ░  
+            ___                 _            _          __                                   
+           / __\__ _ _ __ _ __ (_)_   ____ _| |   ___  / _|   /\  /\___  _ __ _ __ ___  _ __ 
+          / /  / _` | '__| '_ \| \ \ / / _` | |  / _ \| |_   / /_/ / _ \| '__| '__/ _ \| '__|
+         / /__| (_| | |  | | | | |\ V / (_| | | | (_) |  _| / __  / (_) | |  | | | (_) | |   
+         \____/\__,_|_|  |_| |_|_| \_/ \__,_|_|  \___/|_|   \/ /_/ \___/|_|  |_|  \___/|_|  
 
-                                                        BY: R.L. STEIN
+                                           BY: R.L. STEIN
 
-                                             (Use arrow keys and Enter to select.)";
+                               (Use arrow keys and Enter to select.)";
             string[] options = { "Read Story", "About", "Exit" };
             Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Run();
@@ -68,20 +68,26 @@ namespace GoosebumpsReader
         {
             ReadKey();
             Clear();
-            WriteLine(@"Late one night you and your friends Patty and Brad visit the old fairgrounds. They're putting up rides and booths for the annual carnival. 
+            WriteLine(@"
+                            Late one night you and your friends Patty and Brad visit the old fairgrounds. 
+                        They're putting up rides and booths for the annual carnival. 
                         But this year things look really different. Really odd. Really scary");
             ReadKey();
             Clear();
-            WriteLine(@"The place is lit up by a hundred fiery torches and spooky music is coming from the main tent.
+            WriteLine(@"
+                            The place is lit up by a hundred fiery torches and spooky music is coming from the main tent.
                         Then you meet Big Al, the creepy carnival manager.Hes invited you in to test some of the rides.");
             ReadKey();
             Clear();
-            WriteLine(@"“I’m Big Al, the manager. And what I say around here goes.”
+            WriteLine(@"
+                            “I’m Big Al, the manager. And what I say around here goes.”
                        Big Al digs around in his checkered jacket and pulls out three maps. He hands one to each of you.
                        “Study them carefully,” he says. “If you have any questions, ask them now.”
-                       Your eyes fall upon the map. You have a question. But when you gaze up, Big Al is gone. He’s vanished!
+                       Your eyes fall upon the map. You have a question. But when you gaze up, Big Al is gone.
+                       He’s vanished!
                        “A whole carnival to ourselves!” Patty exclaims. “Where should we start?”
-                       You stare down at your map once again. You notice that the carnival is split in half. On one side are the rides. Tons of them. 
+                       You stare down at your map once again. You notice that the carnival is split in half.
+                       On one side are the rides. Tons of them. 
                        On the other side is the midway, packed with games of chance and the Freak Show.
                        What will you try first?");
             ReadKey();

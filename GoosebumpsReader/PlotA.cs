@@ -9,6 +9,7 @@ namespace GoosebumpsReader
     {
         public static void SideStory()
         {
+            Clear();
             Console.WriteLine(@"
                                “Let’s go on the rides first!” you say. “That roller coaster looked awesome!”
                               “Okay,” Patty agrees. “Over this way!” she yells as she charges over to it.
