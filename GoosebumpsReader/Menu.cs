@@ -30,7 +30,7 @@ namespace GoosebumpsReader
                 if (i == SelectedIndex)
                 {
                     selector = "                                      =>";
-                    ForegroundColor = ConsoleColor.Green;
+                    ForegroundColor = ConsoleColor.Magenta;
 
                 }
                 else
