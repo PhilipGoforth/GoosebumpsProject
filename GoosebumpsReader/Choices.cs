@@ -6,7 +6,8 @@ using static System.Console;
 namespace GoosebumpsReader
 {
     class Choices
-    {
+    { 
+
         public static void Cannon130()
         {
             Console.WriteLine(@"
